@@ -1,0 +1,36 @@
+.estado {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.naranja {
+    background-color: orange;
+    color: white;
+}
+
+.azul {
+    background-color: blue;
+    color: white;
+}
+
+.verde {
+    background-color: green;
+    color: white;
+}
+
+.rojo {
+    background-color: red;
+    color: white;
+}
+
+.gris {
+    background-color: gray;
+    color: white;
+}
