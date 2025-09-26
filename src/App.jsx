@@ -7,6 +7,11 @@ import OperadorLogicoAnd from './Components/OperadorLogicoAnd/OperadorLogicoAnd'
 import SwitchCaseObjeto from './Components/SwitchCaseObjeto/SwitchCaseObjeto';
 import ListaFrutas from './Components/ListasKeys/ListaFrutas';
 import ListaNumeros from './Components/ListasKeys/ListaNumeros';
+import ListaObjetos from './Components/ListasKeys/ListaObjetos';
+import ListaAnidada from './Components/ListasKeys/ListaAnidada';
+import UseStateContador from './Components/Hooks/UseState/UseStateContador';
+import StringInput from './Components/Hooks/UseState/StringInput';
+import Boolean from './Components/Hooks/UseState/Boolean';
 
 import './App.css'
 
@@ -54,6 +59,26 @@ function App() {
             <div className='divisor'></div>
 
             <ListaNumeros numero={2}/>
+
+            <div className='divisor'></div>
+
+            <ListaObjetos />
+
+            <div className='divisor'></div>
+
+            <ListaAnidada />
+
+            <div className='divisor'></div>
+
+            <UseStateContador />
+
+            <div className='divisor'></div>
+
+            <StringInput />
+
+            <div className='divisor'></div>
+
+            <Boolean />
         </>
     )
 }
