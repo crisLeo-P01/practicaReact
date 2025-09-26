@@ -1,0 +1,14 @@
+.estado {
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.activo {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.inactivo {
+    background-color: #f44336;
+    color: white;
+}
