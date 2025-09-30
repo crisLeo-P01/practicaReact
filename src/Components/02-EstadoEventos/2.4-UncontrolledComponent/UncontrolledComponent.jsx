@@ -13,7 +13,6 @@ const UncontrolledComponent = () => {
     return (
         <div>
             <h2>Formulario con Uncontrolled Component</h2>
-
             <form onSubmit={ manejarSubmit }>
                 <div>
                     <label>Email del usuario</label>
