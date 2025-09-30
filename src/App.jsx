@@ -1,17 +1,19 @@
-import ComponenteFuncional from './Components/ComponenteFuncional/ComponenteFuncional';
+import ComponenteFuncional from './Components/01-ConceptosBasicos/01-ComponenteFuncional/ComponenteFuncional';
 import PropsSinDestructiring from './Components/PropsSinDestructiring/PropsSinDestructiring';
 import PropsConDestructuring from './Components/PropsConDestructuring/PropsConDestructuring';
-import ChildrenProps from './Components/ChildrenProps/ChildrenProps';
-import OperadorTernario from './Components/OperadorTernario/OperadorTernario';
-import OperadorLogicoAnd from './Components/OperadorLogicoAnd/OperadorLogicoAnd';
-import SwitchCaseObjeto from './Components/SwitchCaseObjeto/SwitchCaseObjeto';
-import ListaFrutas from './Components/ListasKeys/ListaFrutas';
-import ListaNumeros from './Components/ListasKeys/ListaNumeros';
-import ListaObjetos from './Components/ListasKeys/ListaObjetos';
-import ListaAnidada from './Components/ListasKeys/ListaAnidada';
-import UseStateContador from './Components/Hooks/UseState/UseStateContador';
-import StringInput from './Components/Hooks/UseState/StringInput';
-import Boolean from './Components/Hooks/UseState/Boolean';
+import ChildrenProps from './Components/01-ConceptosBasicos/02-ChildrenProps/ChildrenProps';
+import OperadorTernario from './Components/01-ConceptosBasicos/03-Renderizado-condicional/3.2-OperadorTernario/OperadorTernario';
+import OperadorLogicoAnd from './Components/01-ConceptosBasicos/03-Renderizado-condicional/3.1-OperadorLogicoAnd/OperadorLogicoAnd';
+import SwitchCaseObjeto from './Components/01-ConceptosBasicos/03-Renderizado-condicional/3.3-SwitchCaseObjeto/SwitchCaseObjeto';
+import ListaFrutas from './Components/01-ConceptosBasicos/04-ListasKeys/ListaFrutas';
+import ListaNumeros from './Components/01-ConceptosBasicos/04-ListasKeys/ListaNumeros';
+import ListaObjetos from './Components/01-ConceptosBasicos/04-ListasKeys/ListaObjetos';
+import ListaAnidada from './Components/01-ConceptosBasicos/04-ListasKeys/ListaAnidada';
+import UseStateContador from './Components/01-ConceptosBasicos/05-UseState/UseStateContador';
+import StringInput from './Components/01-ConceptosBasicos/05-UseState/StringInput';
+import Boolean from './Components/01-ConceptosBasicos/05-UseState/Boolean';
+import ButtonEvent from './Components/EventHandling/ButtonEvent';
+import ColorsSelect from './Components/EventHandling/ColorsSelect';
 
 import './App.css'
 
@@ -79,6 +81,14 @@ function App() {
             <div className='divisor'></div>
 
             <Boolean />
+
+            <div className='divisor'></div>
+
+            <ButtonEvent />
+
+            <div className='divisor'></div>
+
+            <ColorsSelect />
         </>
     )
 }

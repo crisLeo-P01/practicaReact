@@ -15,9 +15,9 @@ const ComponenteFuncional = () => {
     
     return (
         <div>
-            <h2>Usuario: {personaje.nombre}</h2>
-            <p>Edad: {personaje.edad}</p>
-            <span className={ `estado ${personaje.isActivo ? 'activo' : 'inactivo'}` }>{ obtenerEstado() }</span>
+            <h2>Usuario: { personaje.nombre }</h2>
+            <p>Edad: { personaje.edad }</p>
+            <span className={ `estado ${ personaje.isActivo ? 'activo' : 'inactivo' }` }>{ obtenerEstado() }</span>
         </div>
     )
 }
