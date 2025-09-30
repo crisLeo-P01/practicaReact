@@ -14,6 +14,9 @@ import StringInput from './Components/02-EstadoEventos/2.1-UseState/StringInput'
 import Boolean from './Components/02-EstadoEventos/2.1-UseState/Boolean';
 import ButtonEvent from './Components/02-EstadoEventos/2.2-EventHandling/ButtonEvent';
 import ColorsSelect from './Components/02-EstadoEventos/2.2-EventHandling/ColorsSelect';
+import ControlledComponent from './Components/02-EstadoEventos/2.3-ControlledComponent/ControlledComponent'
+import UncontrolledComponent from './Components/02-EstadoEventos/2.4-UncontrolledComponent/UncontrolledComponent';
+import Formulario from './Components/02-EstadoEventos/2.5-Formulario/Formulario';
 
 import './App.css'
 
@@ -89,6 +92,18 @@ function App() {
             <div className='divisor'></div>
 
             <ColorsSelect />
+
+            <div className='divisor'></div>
+
+            <ControlledComponent />
+
+            <div className='divisor'></div>
+
+            <UncontrolledComponent />
+
+            <div className='divisor'></div>
+
+            <Formulario />
         </>
     )
 }
