@@ -1,0 +1,152 @@
+/* Estilos para Todo App */
+.todo-app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.todo-app h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+}
+
+.agregar-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.agregar-form input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #e1e8ed;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.agregar-form input:focus {
+    border-color: #3498db;
+}
+
+.agregar-form button {
+    padding: 12px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.agregar-form button:hover {
+    background: #2980b9;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.filtros button {
+    padding: 8px 16px;
+    border: 2px solid #bdc3c7;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filtros button.activo {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+.filtros button:hover {
+    border-color: #3498db;
+}
+
+.lista-tareas {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.tarea-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    margin: 8px 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.tarea-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.tarea-item.completada {
+    opacity: 0.7;
+    background: #ecf0f1;
+}
+
+.tarea-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.tarea-texto {
+    flex: 1;
+    font-size: 16px;
+}
+
+.tarea-item.completada .tarea-texto {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
+
+.eliminar-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.eliminar-btn:hover {
+    background: #c0392b;
+}
+
+.contador {
+    text-align: center;
+    padding: 15px;
+    background: #ecf0f1;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.sin-tareas {
+    text-align: center;
+    padding: 40px;
+    color: #7f8c8d;
+    font-style: italic;
+}

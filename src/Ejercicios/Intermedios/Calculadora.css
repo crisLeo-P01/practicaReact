@@ -1,0 +1,108 @@
+/* Estilos para Calculadora */
+.calculadora {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+.calculadora h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+.inputs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.inputs input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.inputs input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.operaciones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.operaciones button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.operaciones button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.operaciones button:active {
+    transform: translateY(0);
+}
+
+.limpiar {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #e74c3c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s ease;
+}
+
+.limpiar:hover {
+    background: #c0392b;
+}
+
+.resultado {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado.exito {
+    background: rgba(39, 174, 96, 0.3);
+    border: 2px solid rgba(39, 174, 96, 0.5);
+}
+
+.resultado.error {
+    background: rgba(231, 76, 60, 0.3);
+    border: 2px solid rgba(231, 76, 60, 0.5);
+}
+
+.resultado-numero {
+    font-size: 1.5em;
+    font-weight: bold;
+}

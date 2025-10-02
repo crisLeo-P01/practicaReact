@@ -1,0 +1,85 @@
+/* Estilos para Semáforo */
+.semaforo-container {
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.semaforo-container h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.semaforo {
+    width: 120px;
+    height: 300px;
+    background: #333;
+    border-radius: 60px;
+    margin: 0 auto;
+    padding: 20px 0;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.semaforo:hover {
+    transform: scale(1.05);
+}
+
+.semaforo:active {
+    transform: scale(0.95);
+}
+
+.luz {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: 3px solid #222;
+    transition: all 0.3s ease;
+}
+
+.luz.roja {
+    background: #444;
+}
+
+.luz.roja.activa {
+    background: #e74c3c;
+    box-shadow: 0 0 20px #e74c3c, 0 0 40px #e74c3c;
+}
+
+.luz.amarilla {
+    background: #444;
+}
+
+.luz.amarilla.activa {
+    background: #f1c40f;
+    box-shadow: 0 0 20px #f1c40f, 0 0 40px #f1c40f;
+}
+
+.luz.verde {
+    background: #444;
+}
+
+.luz.verde.activa {
+    background: #27ae60;
+    box-shadow: 0 0 20px #27ae60, 0 0 40px #27ae60;
+}
+
+.estado-texto {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.estado-texto .estado {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.instruccion {
+    color: #666;
+    font-style: italic;
+    margin-top: 15px;
+}

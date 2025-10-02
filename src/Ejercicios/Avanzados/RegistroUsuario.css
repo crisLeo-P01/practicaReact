@@ -1,0 +1,128 @@
+/* Estilos para Registro de Usuario */
+.registro-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.registro-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.registro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo label {
+    font-weight: bold;
+    color: #34495e;
+    font-size: 14px;
+}
+
+.campo input {
+    padding: 12px 15px;
+    border: 2px solid #e1e8ed;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.campo input.error {
+    border-color: #e74c3c;
+    background: #fdf2f2;
+}
+
+.error-msg {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-container label {
+    margin: 0;
+    cursor: pointer;
+}
+
+.submit-btn {
+    padding: 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background: #2980b9;
+}
+
+.submit-btn:disabled {
+    background: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.exito {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.exito h3 {
+    color: #27ae60;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.exito p {
+    color: #2c3e50;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.exito button {
+    padding: 12px 25px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.exito button:hover {
+    background: #2980b9;
+}
