@@ -17,6 +17,9 @@ import ColorsSelect from './Components/02-EstadoEventos/2.2-EventHandling/Colors
 import ControlledComponent from './Components/02-EstadoEventos/2.3-ControlledComponent/ControlledComponent'
 import UncontrolledComponent from './Components/02-EstadoEventos/2.4-UncontrolledComponent/UncontrolledComponent';
 import Formulario from './Components/02-EstadoEventos/2.5-Formulario/Formulario';
+import Objeto from './Components/02-EstadoEventos/2.1-UseState/Objeto';
+import CargarUsuario from './Components/02-EstadoEventos/2.1-UseState/CargarUsuario';
+import ListaUsuarios from './Components/02-EstadoEventos/2.1-UseState/ListaUsuarios'
 
 import './App.css'
 
@@ -104,6 +107,18 @@ function App() {
             <div className='divisor'></div>
 
             <Formulario />
+
+            <div className='divisor'></div>
+
+            <Objeto />
+
+            <div className='divisor'></div>
+
+            <CargarUsuario />
+
+            <div className='divisor'></div>
+
+            <ListaUsuarios />
         </>
     )
 }
